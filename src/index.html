@@ -6,9 +6,89 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+    <div>
+      <img src="img/gobs.png">
+    </div>
+    </header>
+
+    <nav>
+      <ul class="menuPrincipal">
+        <li>Inicio</li>
+        <li>Nosotros</li>
+        <li>Promociones</li>
+        <li>Mujer</li>
+        <li>Hombre</li>
+        <li>Niña</li>
+        <li>Niño</li>
+        <li>Carrito</li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="seccionPago">
+        <div class="detallePedido">
+          <b>IMPORTE TOTAL DE PEDIDO S/145.00</b>
+          <P>Detalle de compra:</P>
+          <P>1 Polo algodón Hombre ----- S/30.00</P>
+          <P>1 Pantalón mujer ------------- S/65.00</P>
+          <P>1 Chompa hilo Mujer-------- S/50.00</P>
+        </div>
+        <div class="ingDatos">
+          <b>PAGO CON TARJETA DE DÉBITO O CRÉDITO</b>
+          <p>
+          <label  for="numTarjeta">Número de tarjeta : </label>
+          <input type="text" class="numero"  id="numTarjeta">
+          </p>
+          <p>
+          <label for="fechaExp">Fecha de Expiración : </label>
+          <input type="text" id="fechaExp">
+          </p>
+          <label for="codSeg">CVV / CVC : </label>
+          <input type="text" id="codSeg">
+          <div>
+            <button class="btnValidar" type="button" id="btnValidar">Validar Pago</button>
+          </div>
+        </div>
+      </section>
+      <section class="seccionPago" id="tarjetaCifrado">
+        <div class="valid" id="contenedorVal" style="display: none">
+          <p>Estimad@ cliente el número de tarjeta </p>
+          <b id="cifrado"></b>
+          <p>Es </p>
+          <b id="validacion"></b>
+        </div>
+          
+      </section>
+
+
+
+
+
+    </main>
+    <footer>
+      <div class="piePrincipal">
+        <div class="atencion">
+          <b>ATENCIÓN AL CLIENTE</b>
+          <P>Preguntas Frecuentes</P>
+          <P>Cambios y devoluciones</P>
+          <P>Seguimiento de mi orden</P>
+          <P>Términos y condiciones</P>
+        </div>
+        <div class="informacion">
+          <b>MÁS GOBS STORE</b>
+          <P>Nuestra empresa</P>
+          <P>Política de Privacidad</P>
+          <P>Codigó de ética</P>
+          <P>Trabaja con nosotros</P>
+        </div>
+        
+      </div>
+      <div class="pieSegundario">
+        <h2>© Desarrollado por Consuelo Goche-Laboratoria</h2>
+      </div>
+      
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

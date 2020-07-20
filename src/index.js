@@ -1,8 +1,25 @@
+
 import validator from './validator.js';
 
-console.log(validator.isValid("3726266272"));
-console.log(validator.maskify("3726266272"));
+
+const btnValidar = document.getElementById('btnValidar');
+const cifrado = document.getElementById('cifrado');
+const validacion = document.getElementById('validacion');
+const mostrarVal = document.getElementById('contenedorVal');
 
 
-console.log("contenido de INDEX.JS");
+
+
+btnValidar.addEventListener('click', function(){
+    var numTarjeta = document.getElementById('numTarjeta').value;
+    validacion.innerText=validator.isValid(numTarjeta);
+    cifrado.innerText=validator.maskify(numTarjeta);
+    mostrarVal.style.display="block";
+
+
+});
+
+
+
+
 

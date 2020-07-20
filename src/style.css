@@ -1,0 +1,99 @@
+html{
+    font-family: ABeeZee;
+    font-style: normal;   
+}
+header{
+    text-align: center; 
+}
+
+.menuPrincipal{
+    font-size: 30px;
+    display: flex; /*colocar uno lado del otro*/
+    list-style: none; /*NO viñetas de lista*/
+    background-color: #937FA3;  
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li {
+    flex: auto; /*ocupar todo el espacio*/
+    border-right: 1px solid #674681;
+    text-align: center; 
+    color: white;
+    text-decoration: none; /*eliminar subrayado de las referencias*/
+    line-height: 2;
+    display: block;
+  }
+  li:hover{
+    cursor:pointer;
+    color: #674681;
+    background-color: #fff
+}
+.seccionPago{
+   
+    display: flex;
+    background: #f8f2f7; 
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15px;  
+
+}
+.detallePedido,.valid{
+    text-align: center; 
+}
+
+.ingDatos{
+    
+    background-color: #d6d5d6;
+    padding-top:20px;
+    padding-left: 20px;
+    padding-right: 20px;  
+
+
+}
+.btnValidar{
+    color:#fff;
+    padding: 5px;
+    border: 1px solid #674681;
+    font-size: 20px;
+    width:300px;
+    margin:20px;
+    background-color:#937FA3;
+    border-radius: 15px;
+    
+
+
+}
+.btnValidar:hover{
+    cursor:pointer;
+    color: #674681;
+    background-color: #fff
+}
+
+.valid{
+    background-color: #f1e3ee;
+    padding-left: 60px;
+    padding-right: 60px; 
+}
+.piePrincipal{
+    display: flex;
+    justify-content: space-between;
+    height: 150px; /*alto en vertical*/
+    background: #D1CECE;
+    padding-left: 150px; /*separación izquierda*/
+    padding-top: 15px;
+    padding-right: 150px;
+    color: #1A456C;
+    line-height: .5; 
+}
+.pieSegundario{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background: #674681;
+    padding-top: center;
+    color: #F4F7F9;
+}
