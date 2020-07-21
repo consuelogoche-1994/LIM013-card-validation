@@ -12,11 +12,15 @@ const mostrarVal = document.getElementById('contenedorVal');
 
 btnValidar.addEventListener('click', function(){
     var numTarjeta = document.getElementById('numTarjeta').value;
-    validacion.innerText=validator.isValid(numTarjeta);
-    cifrado.innerText=validator.maskify(numTarjeta);
-    mostrarVal.style.display="block";
-
-
+    if(numTarjeta === ''|| numTarjeta=== null)
+    {
+        alert("Por favor Ingrese un número de tarjeta");
+    }
+    else{
+        validacion.innerText=validator.isValid(numTarjeta);
+        cifrado.innerText=validator.maskify(numTarjeta);
+        mostrarVal.style.display="block";
+    }
 });
 
 

@@ -38,7 +38,8 @@
           <b>PAGO CON TARJETA DE DÉBITO O CRÉDITO</b>
           <p>
           <label  for="numTarjeta">Número de tarjeta : </label>
-          <input type="text" class="numero"  id="numTarjeta">
+          <input type="text" class="numero"  id="numTarjeta" 
+          onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
           </p>
           <p>
           <label for="fechaExp">Fecha de Expiración : </label>
