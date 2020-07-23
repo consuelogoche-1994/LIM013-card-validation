@@ -27,40 +27,87 @@
 
     <main>
       <section class="seccionPago">
-        <div class="detallePedido">
-          <b>IMPORTE TOTAL DE PEDIDO S/145.00</b>
-          <P>Detalle de compra:</P>
-          <P>1 Polo algodón Hombre ----- S/30.00</P>
-          <P>1 Pantalón mujer ------------- S/65.00</P>
-          <P>1 Chompa hilo Mujer-------- S/50.00</P>
-        </div>
-        <div class="ingDatos">
-          <b>PAGO CON TARJETA DE DÉBITO O CRÉDITO</b>
-          <p>
-          <label  for="numTarjeta">Número de tarjeta : </label>
-          <input type="text" class="numero"  id="numTarjeta" 
-          onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
-          </p>
-          <p>
-          <label for="fechaExp">Fecha de Expiración : </label>
-          <input type="text" id="fechaExp">
-          </p>
-          <label for="codSeg">CVV / CVC : </label>
-          <input type="text" id="codSeg">
+       
+        <div class="mostrarImg">
           <div>
-            <button class="btnValidar" type="button" id="btnValidar">Validar Pago</button>
+            <b>PAGO CON TARJETA DE DÉBITO O CRÉDITO</b>
           </div>
+          <div>
+           <img class="imgvisa" src="img/Visamast.png">
+          </div>
+
+        </div>
+        <!--formulario-->
+        <form class="ingDatos">
+          <div class="grupo">
+          <label  for="numTarjeta">Número de tarjeta : </label>
+          <input type="text" class="numTarjeta"  id="numTarjeta" 
+          onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
+          </div>
+          <div class="grupo">
+            <label  for="nombre">Nombre : </label>
+            <input type="text" class="nombre"  id="nombre">
+          </div>
+          <div class="flex">
+            <div class="expiracion">
+              <label for="fechaExp">Fecha de Expiración : </label>
+              <div class="flex">
+                  <select class="fechaExp" name="Mes" id="fechaExp">
+                    <option disable selected>Mes</option>
+                      <option value="1">01</option>
+                      <option value="2">02</option>
+                      <option value="3">03</option>
+                      <option value="4">04</option>
+                      <option value="5">05</option>
+                      <option value="6">06</option>
+                      <option value="7">07</option>
+                      <option value="8">08</option>
+                      <option value="9">09</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                  </select>
+
+                  <select class="fechaExp" name="year" id="fechaExp">
+                      <option Diseable  selected >Año</option>
+                      <option value="2020">2020</option>
+                      <option value="2021">2021</option>
+                      <option value="2022">2022</option>
+                      <option value="2023">2023</option>
+                      <option value="2024">2024</option>
+                      <option value="2025">2025</option>
+                      <option value="2026">2026</option>
+                      <option value="2027">2027</option>
+                      <option value="2028">2028</option>
+                      <option value="2029">2029</option>
+                      <option value="2030">2030</option>
+                  </select>
+                
+            </div>
+          </div>
+            <div class="cvv">
+              <label for="codSeg">CVV / CVC : </label>
+              <input class="inputCodSeg" type="text" id="codSeg" maxlength="3">
+            </div>
+        </div>
+
+          <button class="btnValidar" type="button" id="btnValidar">Validar Pago</button>
+
+        </form>
+        <!--mostrar cifrado y validación-->
+        <div class="mensajeValid" id="tarjetaCifrado">
+          <div>
+            <img src="img/iconMensaje.png" alig="absmiddle">
+          </div>
+          <div class="valid" id="contenedorVal" >
+            <p>Estimad@ cliente el número de tarjeta </p>
+            <b id="cifrado"></b>
+            <p>Es </p>
+            <b id="validacion"></b>
+          </div>  
         </div>
       </section>
-      <section class="seccionPago" id="tarjetaCifrado">
-        <div class="valid" id="contenedorVal" style="display: none">
-          <p>Estimad@ cliente el número de tarjeta </p>
-          <b id="cifrado"></b>
-          <p>Es </p>
-          <b id="validacion"></b>
-        </div>
-          
-      </section>
+      
 
 
 

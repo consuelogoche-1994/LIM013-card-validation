@@ -30,64 +30,175 @@ li {
     color: #674681;
     background-color: #fff
 }
+
 .seccionPago{
-   
+    width: 70%;
+    max-width: 800px;
+    padding: 40px 20px;
+    margin: auto;
+    /*para manipular los elementos contenidos en seccion pago*/
     display: flex;
-    background: #f8f2f7; 
+     /*para alinear los elementos verticalmente */
     flex-direction: column;
+    /*alinear elemntos horizontalmente*/
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 15px;  
-
 }
-.detallePedido,.valid{
-    text-align: center; 
+/*mostrar titulo de pago con tarjeta*/
+.mostrarImg{
+    background: #fff;
+    height: 110px;
+    /*definir tamaño horizontal*/
+    width:450px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    /*ingresar borde a contenedor de imagen*/
+    border:2px solid #937FA3;
 }
-
-.ingDatos{
-    
-    background-color: #d6d5d6;
-    padding-top:20px;
-    padding-left: 20px;
-    padding-right: 20px;  
-
-
-}
-.btnValidar{
-    color:#fff;
-    padding: 5px;
-    border: 1px solid #674681;
-    font-size: 20px;
-    width:300px;
-    margin:20px;
+.mostrarImg:hover{
+    cursor:pointer;
+    color: #fff;
     background-color:#937FA3;
-    border-radius: 15px;
+}
+
+.imgvisa{
+    padding-top: 10px;
+}
+/*formulario de ingreso de datos*/
+.ingDatos{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    /*Para definir espacios entre los elementos y el conetnedor*/
+    padding: 100px 30px 30px 30px;
+    /*Para dar borde redondeado*/
+    border-radius: 10px;
+    position: relative;
+    top: -80px;
+    /*para que se coloque debajo del div de imagenes*/
+    z-index: 1;
+    border:2px solid #937FA3;
+}
+.ingDatos label{
+    /*para que ocupe todo el espacio*/
+    display: block;
+    color:#7d8994;
+    /*margen en la parte inferior de 5*/
+    margin-bottom: 5px;
+    /*establecer tamaño de fuente*/
+    font-size: 18px;
+}
+
+.ingDatos select{
+    border:2px solid #ced6e0;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    padding: 5px 12px;
+    /*bordes redondeados*/
+    border-radius: 5px;
+    /*dar espacio por abajo de los select e input*/
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+}
+.numTarjeta, .nombre{
+    border:2px solid #ced6e0;
+    font-size: 18px;
+    height: 35px;
+    width: 98%;
+    /*bordes redondeados*/
+    border-radius: 5px;
+    /*dar espacio por abajo de los select e input*/
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.inputCodSeg{
+    border:2px solid #ced6e0;
+    font-size: 18px;
+    height: 35px;
+    /*bordes redondeados*/
+    border-radius: 5px;
+    /*dar espacio por abajo de los select e input*/
+}
+
+.btnValidar{
+    border:2px solid #ced6e0;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    padding: 5px 12px;
+    /*bordes redondeados*/
+    background: #937FA3;
     
+    border-radius: 5px;
+    /*dar espacio por abajo de los select e input*/
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
 
-
+.ingDatos input:hover,.ingDatos select:hover{
+    border:2px solid #B8D2F7;
 }
 .btnValidar:hover{
     cursor:pointer;
-    color: #674681;
-    background-color: #fff
+    color: #fff;
+    background-color:#8894a0
 }
 
-.valid{
-    background-color: #f1e3ee;
-    padding-left: 60px;
-    padding-right: 60px; 
+
+.ingDatos input:focus,.ingDatos select:focus,.btnValidar:focus{
+    outline: #7d8994;
+    box-shadow: 2px 7px 10px -5px #8894a0;   
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.codSeg{
+    width: 100%;
+}
+.expiracion{
+    width: 100%;
+
+}
+.fechaExp{
+    width: 100%;
+    margin-right: 15px;
+}
+
+
+.mensajeValid{
+    background-color: #fff;
+    border:2px solid #937FA3;
+    width: 650px;
+    padding-bottom: 100px;
+    display: flex;
+    border-radius: 5px;
+    font-size: 20px;
+    align-items: center;
+
+
 }
 .piePrincipal{
     display: flex;
     justify-content: space-between;
     height: 150px; /*alto en vertical*/
     background: #D1CECE;
-    padding-left: 150px; /*separación izquierda*/
+    padding-left: 150px;
     padding-top: 15px;
     padding-right: 150px;
     color: #1A456C;
     line-height: .5; 
 }
+
+
+
 .pieSegundario{
     font-size: 10px;
     display: flex;
