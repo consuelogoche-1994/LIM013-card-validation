@@ -32,16 +32,12 @@ li {
 }
 
 .seccionPago{
-    width: 70%;
     max-width: 800px;
-    padding: 40px 20px;
-    margin: auto;
-    /*para manipular los elementos contenidos en seccion pago*/
-    display: flex;
-     /*para alinear los elementos verticalmente */
-    flex-direction: column;
+    height: 600px;
+    padding: 40px 40px 40px 40px;
     /*alinear elemntos horizontalmente*/
-    align-items: center;
+    margin: auto;
+
 }
 /*mostrar titulo de pago con tarjeta*/
 .mostrarImg{
@@ -49,7 +45,7 @@ li {
     height: 110px;
     /*definir tamaño horizontal*/
     width:450px;
-    margin: 15px;
+    margin: auto;
     padding: 15px;
     border-radius: 10px;
     position: relative;
@@ -71,6 +67,7 @@ li {
 .ingDatos{
     background: #fff;
     width: 90%;
+    margin: auto;
     max-width: 600px;
     /*Para definir espacios entre los elementos y el conetnedor*/
     padding: 100px 30px 30px 30px;
@@ -102,8 +99,8 @@ li {
     border-radius: 5px;
     /*dar espacio por abajo de los select e input*/
     margin-bottom: 20px;
-
-    text-transform: uppercase;
+    /**/
+    text-align-last: center;
 }
 .numTarjeta, .nombre{
     border:2px solid #ced6e0;
@@ -115,6 +112,7 @@ li {
     /*dar espacio por abajo de los select e input*/
     margin-bottom: 20px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .inputCodSeg{
@@ -123,17 +121,17 @@ li {
     height: 35px;
     /*bordes redondeados*/
     border-radius: 5px;
-    /*dar espacio por abajo de los select e input*/
+    text-align: center;
 }
 
-.btnValidar{
+.btnValidar {
     border:2px solid #ced6e0;
     font-size: 18px;
     height: 40px;
     width: 100%;
     padding: 5px 12px;
     /*bordes redondeados*/
-    background: #937FA3;
+    background: #437eb9;
     
     border-radius: 5px;
     /*dar espacio por abajo de los select e input*/
@@ -144,10 +142,10 @@ li {
 .ingDatos input:hover,.ingDatos select:hover{
     border:2px solid #B8D2F7;
 }
-.btnValidar:hover{
+.btnValidar:hover,.btnVolver:hover{
     cursor:pointer;
     color: #fff;
-    background-color:#8894a0
+    background-color:#937FA3
 }
 
 
@@ -172,19 +170,63 @@ li {
     margin-right: 15px;
 }
 
+/*dando estilo a mensaje de validación*/
 
-.mensajeValid{
-    background-color: #fff;
-    border:2px solid #937FA3;
-    width: 650px;
-    padding-bottom: 100px;
-    display: flex;
-    border-radius: 5px;
-    font-size: 20px;
-    align-items: center;
+.seccionValidacion{
 
-
+    max-width: 600px;
+    height: 600px;
+    padding: 40px 40px 40px 40px;
+    /*alinear elemntos horizontalmente*/
+    margin: auto;
 }
+
+
+.imgMensaje{
+    background: #fff;
+    height: 100px;
+    /*definir tamaño horizontal*/
+    width:100px;
+    /*para que el contenido se centre */
+    margin: auto;
+    /*margen interior*/
+    padding: 15px;
+    border-radius: 100px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    /*ingresar borde a contenedor de imagen*/
+    border:2px solid #937FA3;  
+}
+
+.contenedorVal{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    /*Para definir espacios entre los elementos y el conetnedor*/
+    padding: 100px 30px 30px 30px;
+    /*Para dar borde redondeado*/
+    border-radius: 10px;
+    position: relative;
+    top: -80px;
+    /*para que se coloque debajo del div de imagenes*/
+    z-index: 1;
+    border:2px solid #937FA3;
+}
+
+.btnVolver{
+    border:2px solid #ced6e0;
+    font-size: 18px;
+    height: 40px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15px;
+    /*bordes redondeados*/
+    background: #437eb9;
+    border-radius: 5px;
+    /*dar espacio por abajo de los select e input*/
+}
+
 .piePrincipal{
     display: flex;
     justify-content: space-between;

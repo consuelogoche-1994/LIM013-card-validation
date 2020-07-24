@@ -45,11 +45,11 @@ const validator = {
   //verifica el resto para retornar el valor
     if(resto==0)
     {
-    return "válido";
+    return true;
     }
       else
       {
-          return "inválido";
+          return false;
       }
   }
   

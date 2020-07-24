@@ -26,7 +26,7 @@
     </nav>
 
     <main>
-      <section class="seccionPago">
+      <section class="seccionPago" id="seccionPago">
        
         <div class="mostrarImg">
           <div>
@@ -41,7 +41,7 @@
         <form class="ingDatos">
           <div class="grupo">
           <label  for="numTarjeta">Número de tarjeta : </label>
-          <input type="text" class="numTarjeta"  id="numTarjeta" 
+          <input type="text" class="numTarjeta"  id="numTarjeta" maxlength="19"
           onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
           </div>
           <div class="grupo">
@@ -68,7 +68,7 @@
                       <option value="12">12</option>
                   </select>
 
-                  <select class="fechaExp" name="year" id="fechaExp">
+                  <select class="fechaExp" name="year" id="fechaExpYear">
                       <option Diseable  selected >Año</option>
                       <option value="2020">2020</option>
                       <option value="2021">2021</option>
@@ -95,25 +95,29 @@
 
         </form>
         <!--mostrar cifrado y validación-->
-        <div class="mensajeValid" id="tarjetaCifrado">
-          <div>
-            <img src="img/iconMensaje.png" alig="absmiddle">
-          </div>
-          <div class="valid" id="contenedorVal" >
-            <p>Estimad@ cliente el número de tarjeta </p>
-            <b id="cifrado"></b>
-            <p>Es </p>
-            <b id="validacion"></b>
-          </div>  
-        </div>
       </section>
-      
+      <section class="seccionValidacion" id="seccionValidacion"style="display: none" >
+          <div class="imgMensaje" id="imgMensaje">
+          <!--se colocara la imagen-->
+          </div>
+          <div class="contenedorVal" id="contenedorVal"  >
+            <scan>Estimad@</scan>
+            <scan id="nombrecliente"></scan>
+            <scan>el número de tarjeta ingresado</scan>
+            <scan id="cifrado" style="font-size: 22px"></scan>
+            <scan>es </scan>
+            <scan id="validacion"style="font-size: 22px"></scan>
+            <scan id="mensaje"></scan>
+            <div>
+              <button class="btnVolver" type="button" id="btnVolver">VOLVER</button>
+            </div>
+            
+          </div>  
 
-
-
-
-
+      </section>
     </main>
+
+
     <footer>
       <div class="piePrincipal">
         <div class="atencion">
