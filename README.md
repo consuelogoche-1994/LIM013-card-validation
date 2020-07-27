@@ -1,15 +1,48 @@
-# Tarjeta de crédito válida
+# Proyecto Gobs Store
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [1. Introducción](#1.-Introducción)
+* [2. Funcionamiento de la aplicación](#2.-Funcionamiento-de-la-aplicación)
+* [3. Resumen de la aplicación](#3.-Resumen-de-la-aplicación)
+* [4. Imagen final del proyecto](#4.-Imagen-final-del-proyecto)
+* [5. Investigación UX](#5.-Investigación-UX)
+
+** [5. Usuario final](#5-criterios-de-aceptación-mínimos-del-proyecto)
+** [6. Objetivo en realcion al producto](#6-pistas-tips-y-lecturas-complementarias)
+* [6. solución problemas/necesidades](#6-pistas-tips-y-lecturas-complementarias)
+* [6. Primer prototipo de papel](#6-pistas-tips-y-lecturas-complementarias)
+* [6. Feedback recibido](#6-pistas-tips-y-lecturas-complementarias)
+* [6. Imagen de prototipo final](#6-pistas-tips-y-lecturas-complementarias)
+
 
 ***
+Un título con el nombre de tu proyecto.
+Explicar cómo descargar, instalar y ejecutar la aplicación así como una introducción.
+Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+La imagen final de tu proyecto.
+Investigación UX:
+Explicar quiénes son los usuarios y los objetivos en relación con el producto.
+Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+Luego colocarás la foto de tu primer prototipo en papel.
+Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+Imagen del prototipo final.
+
+## 1. Introducción
+## 2. Funcionamiento de la aplicación
+## 3. Resumen de la aplicación
+## 4. Imagen final del proyecto
+## 5. Investigación UX
+  ### -Usuario finales
+  ### -Objetivo en realcion al producto
+  ### -solución problemas/necesidades
+  ### -Primer prototipo de papel
+  ### -Feedback recibido
+  ### -Imagen de prototipo final
+
+
+
+
 
 ## 1. Preámbulo
 
