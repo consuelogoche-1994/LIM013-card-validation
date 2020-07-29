@@ -28,10 +28,12 @@ Imagen del prototipo final.
 ## 4. Imagen final del proyecto
 
 * Interface de validación
-![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/interface-valid.png)
+
+![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/interface-valid.PNG)
 
 * Interface de resultados
-![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/interface-result.png)
+
+![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/interface-result.PNG)
 
 ## 5. Investigación UX
   ### Identificación del problema
