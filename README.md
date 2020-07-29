@@ -22,7 +22,7 @@ Luego colocarás la foto de tu primer prototipo en papel.
 Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 Imagen del prototipo final.
 
-## 1. Introducción
+
 ## 2. Funcionamiento de la aplicación
 ## 3. Resumen de la aplicación
 ## 4. Imagen final del proyecto
@@ -263,7 +263,7 @@ _statements_ (sentencias), _functions_ (funciones) y _lines_ (líneas); y un
 mínimo del 50% de _branches_ (ramas).
 
 ***
-
+## 1. Introducción
 ## 6. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
