@@ -8,12 +8,6 @@
 * [4. Imagen final del proyecto](#4.-Imagen-final-del-proyecto)
 * [5. Investigación UX](#5.-Investigación-UX)
 
-** [5. Usuario final](#5-criterios-de-aceptación-mínimos-del-proyecto)
-** [6. Objetivo en realcion al producto](#6-pistas-tips-y-lecturas-complementarias)
-* [6. solución problemas/necesidades](#6-pistas-tips-y-lecturas-complementarias)
-* [6. Primer prototipo de papel](#6-pistas-tips-y-lecturas-complementarias)
-* [6. Feedback recibido](#6-pistas-tips-y-lecturas-complementarias)
-* [6. Imagen de prototipo final](#6-pistas-tips-y-lecturas-complementarias)
 
 
 ***
@@ -33,12 +27,16 @@ Imagen del prototipo final.
 ## 3. Resumen de la aplicación
 ## 4. Imagen final del proyecto
 ## 5. Investigación UX
-  ### -Usuario finales
-  ### -Objetivo en realcion al producto
-  ### -solución problemas/necesidades
-  ### -Primer prototipo de papel
-  ### -Feedback recibido
-  ### -Imagen de prototipo final
+  ### Identificación del problema
+  Gobs Store es una iniciativa de venta y distribución de prendas de calidad a un precio justo, normalmente sus ventas se realizan por medio de una página de facebook, donde los compradores se ponen en contacto con el vendedor para preguntar precios y promociones, esto es muy demandante para el vendedor, tiene que atender a muchos clientes y algunos de ellos no compran los productos, tan solo quieren información. También es importante mencionar que debido a la cantidad de personas que se ponen en contacto con el vendedor se hace difícil contestar de forma inmediata y esto genera pérdida en ventas y descontento por parte de los clientes.
+  Los pagos de las compras se realizan a contra entrega y en muy pocas ocasiones mediante depósitos a la cuenta del banco del dueño de la empresa, esto sin duda genera mucha perdida de dinero a causa de las personas que no asisten a las citas para la entrega de sus productos y un mal seguimiento de las ganancias, así como también descontento por parte de los clientes que tienen que estar yendo a su banco a retirar los montos.
+  Gobs Store tiene previsto crecer en ventas y en oferta de productos, pero sabe que solo manejarlo mediante una página de facebook no es suficiente para sus propósitos.
+  ### Usuario finales
+  ### Objetivo en realcion al producto
+  ### solución problemas/necesidades
+  ### Primer prototipo de papel
+  ### Feedback recibido
+  ### Imagen de prototipo final
 
 
 
