@@ -26,6 +26,13 @@ Imagen del prototipo final.
 ## 2. Funcionamiento de la aplicación
 ## 3. Resumen de la aplicación
 ## 4. Imagen final del proyecto
+
+* Interface de validación
+![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/interface-valid.png)
+
+* Interface de resultados
+![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/interface-result.png)
+
 ## 5. Investigación UX
   ### Identificación del problema
   Gobs Store es una iniciativa de venta y distribución de prendas de calidad a un precio justo,
