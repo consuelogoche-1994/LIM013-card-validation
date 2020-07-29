@@ -2,8 +2,8 @@
 
 ## Índice
 
-* [1. Introducción](##-2.-Resumen-del-proyecto)
-* [2. Funcionamiento de la aplicación](#2.-Funcionamiento-de-la-aplicación)
+* [1. Introducción](#1.-Introducción)
+* [2.Funcionamiento de la aplicación](#2.-Funcionamiento-de-la-aplicación)
 * [3. Resumen de la aplicación](#3.-Resumen-de-la-aplicación)
 * [4. Imagen final del proyecto](#4.-Imagen-final-del-proyecto)
 * [5. Investigación UX](#5.-Investigación-UX)
@@ -28,16 +28,61 @@ Imagen del prototipo final.
 ## 4. Imagen final del proyecto
 ## 5. Investigación UX
   ### Identificación del problema
-  Gobs Store es una iniciativa de venta y distribución de prendas de calidad a un precio justo, normalmente sus ventas se realizan por medio de una página de facebook, donde los compradores se ponen en contacto con el vendedor para preguntar precios y promociones, esto es muy demandante para el vendedor, tiene que atender a muchos clientes y algunos de ellos no compran los productos, tan solo quieren información. También es importante mencionar que debido a la cantidad de personas que se ponen en contacto con el vendedor se hace difícil contestar de forma inmediata y esto genera pérdida en ventas y descontento por parte de los clientes.
-  Los pagos de las compras se realizan a contra entrega y en muy pocas ocasiones mediante depósitos a la cuenta del banco del dueño de la empresa, esto sin duda genera mucha perdida de dinero a causa de las personas que no asisten a las citas para la entrega de sus productos y un mal seguimiento de las ganancias, así como también descontento por parte de los clientes que tienen que estar yendo a su banco a retirar los montos.
-  Gobs Store tiene previsto crecer en ventas y en oferta de productos, pero sabe que solo manejarlo mediante una página de facebook no es suficiente para sus propósitos.
-  ### Usuario finales
-  ### Objetivo en realcion al producto
-  ### solución problemas/necesidades
-  ### Primer prototipo de papel
-  ### Feedback recibido
-  ### Imagen de prototipo final
+  Gobs Store es una iniciativa de venta y distribución de prendas de calidad a un precio justo,
+  normalmente sus ventas se realizan por medio de una página de facebook, donde los compradores 
+  se ponen en contacto con el vendedor para preguntar precios y promociones, esto es muy demandante 
+  para el vendedor, tiene que atender a muchos clientes y algunos de ellos no compran los productos, 
+  tan solo quieren información. También es importante mencionar que debido a la cantidad de personas
+  que se ponen en contacto con el vendedor se hace difícil contestar de forma inmediata y esto genera
+   pérdida en ventas y descontento por parte de los clientes.
 
+  Los pagos de las compras se realizan a contra entrega y en muy pocas ocasiones mediante depósitos
+  a la cuenta del banco del dueño de la empresa, esto sin duda genera mucha perdida de dinero a causa
+  de las personas que no asisten a las citas para la entrega de sus productos y un mal seguimiento de
+  las ganancias, así como también descontento por parte de los clientes que tienen que estar yendo a 
+  su banco a retirar los montos.
+
+  Gobs Store tiene previsto crecer en ventas y en oferta de productos, pero sabe que solo manejarlo 
+  mediante una página de facebook no es suficiente para sus propósitos.
+
+  ### Usuario final
+
+  Este aplicativo está dirigido a todas aquella personas que deseen adquirir prendas de alta calidad
+  a un precio acorde a lo adquirido, sin la necesidad de salir de casa y cancelarlo con un medio de
+  pago sencillo y seguro.
+
+  ### Objetivo en relación al producto
+
+  EL objetivo es facilitar y hacer la experiencia de compra mas amena para los clientes, poniendo a
+  disposición toda la información de los productos y brindandole un método de pago seguro y facil de 
+  ejecutar.
+
+  Todo lo mencionado estará contenido en la pagina Web a desarrollar.
+
+  ### solución problemas/necesidades
+
+  Con el paso del tiempo la tecnología se ha vuelto indispensable para muchos ámbitos de la vida, 
+  simplifica procesos, reduce tiempos entre otros beneficios. Lo que Gobs Store necesita para solucionar
+  la problemática expuesta es la creación e implementación de una página web que sea capaz de mostrar 
+  información de los productos y recibir pagos con tarjeta de credito o debito.
+ 
+  Para poder verificar la validez de la tarjeta se usa el algoritmo de Luhn, también llamado algoritmo
+  de módulo 10, este algoritmo nos permitirá validar la tarjeta para proceder con el cobro del importe 
+  de los productos.
+
+  ### Primer prototipo de papel
+
+![Imagen de prototipo en papel](https://drive.google.com/file/d/1SZyMsNbSq01Op1XuIn_wfVMyIca9Imgi/view?usp=sharing)
+
+  ### Feedback recibido
+
+  * Enfocarse más en la interface que mostrará los resultados de la validación.
+  * Mejorar el tamaño de letra donde se muestra los resultados.
+  * hacer los botones mas vistosos para los clientes.
+  * Cambiar el color de letra de acuerdo al resultado obtenido Válido o Inválido.
+  * Investigar más de los test unitarios.
+
+  ### Imagen de prototipo final
 
 
 
