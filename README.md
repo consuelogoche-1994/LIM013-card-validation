@@ -72,7 +72,7 @@ Imagen del prototipo final.
 
   ### Primer prototipo de papel
 
-![Imagen de prototipo en papel](https://drive.google.com/file/d/1SZyMsNbSq01Op1XuIn_wfVMyIca9Imgi/view?usp=sharing)
+![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/prototipo-papel.jpg)
 
   ### Feedback recibido
 
