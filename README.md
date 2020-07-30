@@ -2,11 +2,11 @@
 
 ## Índice
 
-* [1. Introducción](1.-Introducción)
-* [2.Funcionamiento de la aplicación](2.-Funcionamiento-de-la-aplicación)
-* [3. Resumen de la aplicación](3.-Resumen-de-la-aplicación)
-* [4. Imagen final del proyecto](4.-Imagen-final-del-proyecto)
-* [5. Investigación UX](5.-Investigación-UX)
+* [1. Introducción](#1-introducción)
+* [2.Funcionamiento de la aplicación](#2-funcionamiento-de-la-aplicación)
+* [3. Resumen de la aplicación](#3-resumen-de-la-aplicación)
+* [4. Imagen final del proyecto](#4-imagen-final-del-proyecto)
+* [5. Investigación UX](#5-investigación-UX)
 
 ## 1. Introducción
 
