@@ -2,25 +2,11 @@
 
 ## Índice
 
-* [1. Introducción](#1.-Introducción)
-* [2.Funcionamiento de la aplicación](#2.-Funcionamiento-de-la-aplicación)
-* [3. Resumen de la aplicación](#3.-Resumen-de-la-aplicación)
-* [4. Imagen final del proyecto](#4.-Imagen-final-del-proyecto)
-* [5. Investigación UX](#5.-Investigación-UX)
-
-
-
-***
-Un título con el nombre de tu proyecto.
-Explicar cómo descargar, instalar y ejecutar la aplicación así como una introducción.
-Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-La imagen final de tu proyecto.
-Investigación UX:
-Explicar quiénes son los usuarios y los objetivos en relación con el producto.
-Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
-Luego colocarás la foto de tu primer prototipo en papel.
-Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-Imagen del prototipo final.
+* [1. Introducción](1.-Introducción)
+* [2.Funcionamiento de la aplicación](2.-Funcionamiento-de-la-aplicación)
+* [3. Resumen de la aplicación](3.-Resumen-de-la-aplicación)
+* [4. Imagen final del proyecto](4.-Imagen-final-del-proyecto)
+* [5. Investigación UX](5.-Investigación-UX)
 
 ## 1. Introducción
 
@@ -98,7 +84,7 @@ los ultimos 4 digitos.
 
   Todo lo mencionado estará contenido en la pagina Web a desarrollar.
 
-  ### solución problemas/necesidades
+  ### Solución problemas/necesidades
 
   Con el paso del tiempo la tecnología se ha vuelto indispensable para muchos ámbitos de la vida, 
   simplifica procesos, reduce tiempos entre otros beneficios. Lo que Gobs Store necesita para solucionar
