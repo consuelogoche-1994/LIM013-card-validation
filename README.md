@@ -1,5 +1,7 @@
 # Proyecto Gobs Store
 
+![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/gobs.png)
+
 ## Índice
 
 * [1. Introducción](#1-introducción)
@@ -108,4 +110,12 @@ los ultimos 4 digitos.
   * Investigar más de los test unitarios.
 
   ### Imagen de prototipo final
+
+  * Primera interface
+
+   ![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/prototipo-1.PNG)
+
+  * Segunda Interface
+
+  ![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/prototipo-2.PNG)
 

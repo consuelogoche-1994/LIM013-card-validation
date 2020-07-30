@@ -41,7 +41,7 @@ btnValidar.addEventListener('click', function(){
             {
                 validacion.innerText="inválido";
                 imgMensaje.innerHTML=`<img src="img/error.png">`;
-                mensaje.innerText=",por favor presione regresar para ingresar sus datos nuevamente"
+                mensaje.innerText=",por favor presione VOLVER para ingresar sus datos nuevamente"
                 cifrado.style.color="red";
                 validacion.style.color="red";
             }
