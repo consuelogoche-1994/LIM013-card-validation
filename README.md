@@ -53,7 +53,7 @@ los ultimos 4 digitos.
 
 ## 5. Investigación UX
 
-  ### Identificación del problema
+### Identificación del problema
 
   Gobs Store es una iniciativa de venta y distribución de prendas de calidad a un precio justo,
   normalmente sus ventas se realizan por medio de una página de facebook, donde los compradores 
@@ -72,13 +72,13 @@ los ultimos 4 digitos.
   Gobs Store tiene previsto crecer en ventas y en oferta de productos, pero sabe que solo manejarlo 
   mediante una página de facebook no es suficiente para sus propósitos.
 
-  ### Usuario final
+### Usuario final
 
   Este aplicativo está dirigido a todas aquella personas que deseen adquirir prendas de alta calidad
   a un precio acorde a lo adquirido, sin la necesidad de salir de casa y cancelarlo con un medio de
   pago sencillo y seguro.
 
-  ### Objetivo en relación al producto
+### Objetivo en relación al producto
 
   EL objetivo es facilitar y hacer la experiencia de compra mas amena para los clientes, poniendo a
   disposición toda la información de los productos y brindandole un método de pago seguro y facil de 
@@ -86,7 +86,7 @@ los ultimos 4 digitos.
 
   Todo lo mencionado estará contenido en la pagina Web a desarrollar.
 
-  ### Solución problemas/necesidades
+### Solución problemas/necesidades
 
   Con el paso del tiempo la tecnología se ha vuelto indispensable para muchos ámbitos de la vida, 
   simplifica procesos, reduce tiempos entre otros beneficios. Lo que Gobs Store necesita para solucionar
@@ -97,11 +97,11 @@ los ultimos 4 digitos.
   de módulo 10, este algoritmo nos permitirá validar la tarjeta para proceder con el cobro del importe 
   de los productos.
 
-  ### Primer prototipo de papel
+### Primer prototipo de papel
 
 ![Imagen de prototipo en papel](src/img/prototipo-papel.jpg)
 
-  ### Feedback recibido
+### Feedback recibido
 
   * Enfocarse más en la interface que mostrará los resultados de la validación.
   * Mejorar el tamaño de letra donde se muestra los resultados.
@@ -109,7 +109,7 @@ los ultimos 4 digitos.
   * Cambiar el color de letra de acuerdo al resultado obtenido Válido o Inválido.
   * Investigar más de los test unitarios.
 
-  ### Imagen de prototipo final
+### Imagen de prototipo final
 
   * Primera interface
 
