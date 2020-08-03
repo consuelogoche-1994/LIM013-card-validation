@@ -72,7 +72,7 @@ los ultimos 4 digitos.
   Gobs Store tiene previsto crecer en ventas y en oferta de productos, pero sabe que solo manejarlo 
   mediante una página de facebook no es suficiente para sus propósitos.
 
-### Usuario final
+## Usuario final
 
   Este aplicativo está dirigido a todas aquella personas que deseen adquirir prendas de alta calidad
   a un precio acorde a lo adquirido, sin la necesidad de salir de casa y cancelarlo con un medio de
