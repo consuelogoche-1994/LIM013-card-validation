@@ -1,6 +1,6 @@
 # Proyecto Gobs Store
 
-![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/gobs.png)
+![Imagen de prototipo en papel](src/img/gobs.png)
 
 ## Índice
 
@@ -45,11 +45,11 @@ los ultimos 4 digitos.
 
 * Interface de validación
 
-![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/interface-valid.PNG)
+![Imagen de prototipo en papel](src/img/interface-valid.PNG)
 
 * Interface de resultados
 
-![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/interface-result.PNG)
+![Imagen de prototipo en papel](src/img/interface-result.PNG)
 
 ## 5. Investigación UX
 
@@ -99,7 +99,7 @@ los ultimos 4 digitos.
 
   ### Primer prototipo de papel
 
-![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/prototipo-papel.jpg)
+![Imagen de prototipo en papel](src/img/prototipo-papel.jpg)
 
   ### Feedback recibido
 
@@ -113,9 +113,9 @@ los ultimos 4 digitos.
 
   * Primera interface
 
-   ![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/prototipo-1.PNG)
+   ![Imagen de prototipo en papel](src/img/prototipo-1.PNG)
 
   * Segunda Interface
 
-  ![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/prototipo-2.PNG)
+  ![Imagen de prototipo en papel](src/img/prototipo-2.PNG)
 
