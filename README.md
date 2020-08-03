@@ -1,6 +1,6 @@
 # Proyecto Gobs Store
 
-![Imagen de prototipo en papel](https://github.com/consuelogoche-1994/LIM013-card-validation/blob/master/src/img/gobs.png)
+![Imagen de prototipo en papel](src/img/gobs.png)
 
 ## Índice
 
