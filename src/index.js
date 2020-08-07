@@ -1,7 +1,7 @@
 
 import validator from './validator.js';
 
-
+/* manipulando el DOM con selector getElementId*/
 const btnValidar = document.getElementById('btnValidar');
 const cifrado = document.getElementById('cifrado');
 const validacion = document.getElementById('validacion');
@@ -12,10 +12,10 @@ const imgMensaje=document.getElementById('imgMensaje');
 const seccionPago=document.getElementById('seccionPago');
 const btnVolver =document.getElementById('btnVolver');
 
-
+/*Evento addEventListener del DOM */
 btnValidar.addEventListener('click', function(){
-    var numTarjeta = document.getElementById('numTarjeta').value;
-    var nombreExtraido=document.getElementById('nombre').value;
+    let numTarjeta = document.getElementById('numTarjeta').value;
+    let nombreExtraido=document.getElementById('nombre').value;
 
     if(numTarjeta === ''|| numTarjeta=== null||
     nombreExtraido=== ''|| nombreExtraido=== null)
@@ -24,7 +24,9 @@ btnValidar.addEventListener('click', function(){
     }
     else{
             mostrarNombre.innerText= nombreExtraido;
+            /*Manipular dinamicamente el DOM con innerText */
             cifrado.innerText=validator.maskify(numTarjeta);
+            /*Manipular la clase del DOM */
             mostrarVal.style.display="block";
             seccionPago.style.display="none";
 
@@ -50,7 +52,7 @@ btnValidar.addEventListener('click', function(){
 
 });
 /*evento para regresar a la pantalla anterior*/
-btnVolver.addEventListener('click', function(){
+btnVolver.addEventListener('click', () =>{
     document.getElementById('codSeg').value='';
     document.getElementById('numTarjeta').value='';
     document.getElementById('nombre').value='';

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1595881251069" clover="3.2.0">
-  <project timestamp="1595881251069" name="All files">
+<coverage generated="1596775792017" clover="3.2.0">
+  <project timestamp="1596775792017" name="All files">
     <metrics statements="29" coveredstatements="29" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2" elements="39" coveredelements="38" complexity="0" loc="29" ncloc="29" packages="1" files="1" classes="1"/>
     <file name="validator.js" path="D:\BootCamp-Laboratoria\LIM013-card-validation\src\validator.js">
       <metrics statements="29" coveredstatements="29" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>

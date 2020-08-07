@@ -1,19 +1,24 @@
-html{
-    font-family: ABeeZee;
+/*selector de universal afecta todo la pagina web*/
+* {
+    /*define fuente de letra*/
+    font-family:Arial, Helvetica, sans-serif;
+    /*define  el aspecto es decir si sera cursiva normal etc */
     font-style: normal;   
 }
+/*selector de tipo*/
 header{
     text-align: center; 
 }
 
+/*selector de clase*/
+/*selector de is es con # y solo permite un elemento*/
 .menuPrincipal{
-    font-size: 30px;
+    font-size: 30px;/*tamaño de fuente*/
     display: flex; /*colocar uno lado del otro*/
     list-style: none; /*NO viñetas de lista*/
     background-color: #937FA3;  
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding: 0;/*margen interno*/
+    margin: 0;/*margen externo*/
 }
 
 li {
@@ -22,18 +27,19 @@ li {
     text-align: center; 
     color: white;
     text-decoration: none; /*eliminar subrayado de las referencias*/
-    line-height: 2;
-    display: block;
+    line-height: 2;/*especifica la altura de la linea*/
+    display: block;/*para que se comporten como elementos de bloque*/
   }
   li:hover{
     cursor:pointer;
     color: #674681;
-    background-color: #fff
+    background-color:#d1d3d6;
 }
 
 .seccionPago{
-    max-width: 800px;
-    height: 600px;
+
+    max-width: 800px;/*tamaño horizontal*/
+    height: 600px;/*tamaño vertical*/
     padding: 40px 40px 40px 40px;
     /*alinear elemntos horizontalmente*/
     margin: auto;
@@ -54,6 +60,8 @@ li {
     /*ingresar borde a contenedor de imagen*/
     border:2px solid #937FA3;
 }
+/* pseudo-clase(estado especial del elemento) que se usa para realizar 
+una acción cuando se pase el mouse*/
 .mostrarImg:hover{
     cursor:pointer;
     color: #fff;
@@ -79,6 +87,8 @@ li {
     z-index: 1;
     border:2px solid #937FA3;
 }
+
+/*selector descendiente*/
 .ingDatos label{
     /*para que ocupe todo el espacio*/
     display: block;
@@ -111,8 +121,11 @@ li {
     border-radius: 5px;
     /*dar espacio por abajo de los select e input*/
     margin-bottom: 20px;
-    text-transform: uppercase;
+    
     text-align: center;
+}
+.nombre , .nombrecliente{
+    text-transform: uppercase;
 }
 
 .inputCodSeg{
@@ -156,7 +169,7 @@ li {
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;/*distribuir primer elemnto al inicio y ultimo elemnto al final*/
 }
 .codSeg{
     width: 100%;
@@ -235,7 +248,7 @@ li {
     padding-left: 150px;
     padding-top: 15px;
     padding-right: 150px;
-    color: #1A456C;
+    color: #5a6e80;
     line-height: .5; 
 }
 

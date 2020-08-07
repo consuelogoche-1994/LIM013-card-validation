@@ -5,15 +5,20 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  
   <body>
     <header>
-    <div>
-      <img src="img/gobs.png">
-    </div>
+    <p>
+      <!--atributo alt proporciona descripción de la imagen-->
+      <img src="img/gobs.png" alt="logoGobs">
+    </p>
     </header>
-
+      <!--sección que se utiliza para proveer vinculos de navegación tanto fuera como el mismo documento
+      BARRA DE NAVEGACIÓN-->
     <nav>
+      <!--elemnto de apertura ara listas no enumerada-->
       <ul class="menuPrincipal">
+        <!--etiqueta para declarar cada elemnto de la lista-->
         <li>Inicio</li>
         <li>Nosotros</li>
         <li>Promociones</li>
@@ -24,24 +29,28 @@
         <li>Carrito</li>
       </ul>
     </nav>
-
+      <!--MAIN contenido principal del body(cuerpo)-->
     <main>
+      <!--SECTION = Sección temática del documento-->
       <section class="seccionPago" id="seccionPago">
-       
         <div class="mostrarImg">
           <div>
+            <!--etiqueta para colocar en negrita-->
             <b>PAGO CON TARJETA DE DÉBITO O CRÉDITO</b>
           </div>
           <div>
-           <img class="imgvisa" src="img/Visamast.png">
+            <img class="imgvisa" src="img/Visamast.png">
           </div>
 
         </div>
-        <!--formulario-->
+        <!--etiqueta form= represanta contenido que interactua con el usuario-->
         <form class="ingDatos">
           <div class="grupo">
+            <!--esta asociada a un control del formulario ejm(input) 
+            y con for se asocia al mismo-->
           <label  for="numTarjeta">Número de tarjeta : </label>
-          <input type="text" class="numTarjeta"  id="numTarjeta" maxlength="19"
+          <!--evento que retorna solo números/ codigo asci 48 =0 57= 9-->
+          <input type="text" class="numTarjeta" id="numTarjeta" maxlength="19"
           onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
           </div>
           <div class="grupo">
@@ -52,8 +61,11 @@
             <div class="expiracion">
               <label for="fechaExp">Fecha de Expiración : </label>
               <div class="flex">
-                  <select class="fechaExp" name="Mes" id="fechaExp">
-                    <option disable selected>Mes</option>
+                <!--etiqueta que contendra una lista de opciones-->
+                  <select class="fechaExp" name="Mes" id="fechaExp" > 
+                    <!--disable=no pueda selecionarse y selected= aparece como identificador-->
+
+                      <option disabled selected>Mes</option>
                       <option value="1">01</option>
                       <option value="2">02</option>
                       <option value="3">03</option>
@@ -69,7 +81,7 @@
                   </select>
 
                   <select class="fechaExp" name="year" id="fechaExpYear">
-                      <option diseable  selected >Año</option>
+                      <option disabled selected >Año</option>
                       <option value="2020">2020</option>
                       <option value="2021">2021</option>
                       <option value="2022">2022</option>
@@ -87,37 +99,39 @@
           </div>
             <div class="cvv">
               <label for="codSeg">CVV / CVC : </label>
-              <input class="inputCodSeg" type="text" id="codSeg" maxlength="3">
+              <input type="text" class="inputCodSeg"  id="codSeg" maxlength="3"
+              onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
             </div>
         </div>
 
-          <button class="btnValidar" type="button" id="btnValidar">Validar Pago</button>
+          <button type="button" class="btnValidar"  id="btnValidar">Validar Pago</button>
 
         </form>
         <!--mostrar cifrado y validación-->
       </section>
       <section class="seccionValidacion" id="seccionValidacion" style="display:none">
           <div class="imgMensaje" id="imgMensaje">
-          <!--se colocara la imagen-->
+          <!--se colocara la imagen manejo dinamico del DOM-->
           </div>
           <div class="contenedorVal" id="contenedorVal"  >
-            <scan>Estimad@</scan>
-            <scan id="nombrecliente"></scan>
-            <scan>el número de tarjeta ingresado</scan>
-            <scan id="cifrado" style="font-size: 22px"></scan>
-            <scan>es </scan>
-            <scan id="validacion" style="font-size: 22px"></scan>
-            <scan id="mensaje"></scan>
+            <!--span no tiene valor semántico pero ayuda a dar style en la misma linea-->
+            <p>Estimad@ 
+            <span class="nombrecliente" id="nombrecliente"></span>
+            <span>el número de tarjeta ingresado</span>
+            <span id="cifrado" style="font-size: 22px"></span>
+            <span>es </span>
+            <span id="validacion" style="font-size: 22px"></span>
+            <span id="mensaje"></span>
+            </p>
             <div>
-              <button class="btnVolver" type="button" id="btnVolver">VOLVER</button>
+              <button type="button" class="btnVolver"  id="btnVolver">VOLVER</button>
             </div>
             
           </div>  
 
       </section>
     </main>
-
-
+    <!-- FOOTER es usado para contener el pie de página-->
     <footer>
       <div class="piePrincipal">
         <div class="atencion">
